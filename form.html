@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+<h2>Devayani</h2>
+
+<form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  
+  <label for="course">Interested Course:</label>
+  <select id="course" name="course">
+    <option value="c">C</option>
+    <option value="cpp">C++</option>
+    <option value="python">Python</option>
+    <option value="java">Java</option>
+    <option value="data_structure">Data Structure</option>
+    <option value="mysql">MySQL</option>
+  </select><br><br>
+  
+  <label>Gender:</label>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other<br><br>
+  
+  <label for="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone"><br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+<script src="form.js"></script>
+
+</body>
+</html>
